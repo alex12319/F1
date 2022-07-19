@@ -10,7 +10,7 @@ drivers.forEach((driver,index) =>{
     const {hex,image,number,points,firstName,lastName,team} = driver;
 
     driversContainer.innerHTML += `<div class="driver-card">
-            <div class='custom-border'></div>
+            <div style="--custom-color:${hex};"class='custom-border'></div>
             <div class="points-section">
                 <p>${index + 1}</p>
                 <div class="points">

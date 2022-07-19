@@ -49,6 +49,7 @@
 .driver-card:hover .custom-border{
     height:105%;
     transform:translateY(-5%);
+    border-color:var(--custom-color);
 }
 
 .driver-card:nth-child(-n+3){
